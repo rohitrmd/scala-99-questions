@@ -10,7 +10,7 @@ object Question1 {
 
     val list = List(1, 1, 2, 3, 5, 8)
 
-    println(s"Last elemetn ${findLast(list)}")
+    println(s"Last element ${findLast(list)}")
   }
 
   def findLast[A](list:List[A]):A = {
